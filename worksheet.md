@@ -22,7 +22,9 @@ This project is split into five parts.
 
 ## Create the program
 
-Open IDLE (**not** IDLE3) by using the icon on the desktop.
+Boot you Raspberry Pi and from the menu select **Python 3 (IDLE)** from the **Programming** section.
+
+![Launch IDLE](launch_idle.png)
 
 When the Python shell appears, create a new program using `File > New Window`. You may also want to save your program now using `File > Save`.
 
