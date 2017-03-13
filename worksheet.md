@@ -22,7 +22,7 @@ This project is split into five parts.
 
 ## Create the program
 
-Boot you Raspberry Pi and from the menu select **Python 3 (IDLE)** from the **Programming** section.
+Boot your Raspberry Pi and from the menu select **Python 3 (IDLE)** from the **Programming** section.
 
 ![Launch IDLE](launch_idle.png)
 
