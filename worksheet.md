@@ -143,7 +143,7 @@ Run the program by clicking `Run > Run Module` in IDLE or by pressing F5; you sh
 
 ## Whack blocks
 
-The player will whack blocks by hitting them (right-clicking) while holding a sword. The Minecraft API has functions which allow you to find out what blocks were hit; these are known as block hit *events*. Using the function `events.pollBlockHits()` you can get a list of the events that have occurred since it was last called, such as blocks which were hit.
+The player will whack blocks by hitting them (**right-clicking**) while holding a sword. The Minecraft API has functions which allow you to find out what blocks were hit; these are known as block hit *events*. Using the function `events.pollBlockHits()` you can get a list of the events that have occurred since it was last called, such as blocks which were hit.
 
 You will use events to find out the position of the block which was hit, before using `getBlock(x,y,z)` to see if the block hit was glowstone. If it was, you will then use `setBlock(x,y,z,blockId)` to turn it back to stone, before reducing the number of blocks lit and increasing the player's score.
 
@@ -164,7 +164,7 @@ Use `getBlock(x,y,z)`, the `hitBlock` event data and an `if` statement to see if
             points = points + 1 
 ```
 
-Run the program. The game board should appear and this time when the blocks are lit, if you hit them by right-clicking with a sword, they should turn off.
+Run the program. The game board should appear and this time when the blocks are lit, if you hit them by **right-clicking** with a sword, they should turn off.
 
 ## Game over
 
